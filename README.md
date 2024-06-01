@@ -1,12 +1,13 @@
-Todo-List
-Descrição
+
+# Todo-List
+
+## Descrição
 Este é um projeto de frontend desenvolvido com Next.js, Tailwind CSS, e outras bibliotecas modernas para criar um aplicativo de gerenciamento de tarefas. O projeto inclui funcionalidades de autenticação, gerenciamento de tarefas, e uma interface de usuário responsiva.
 
-Estrutura do Projeto
+## Estrutura do Projeto
 A estrutura do projeto é organizada da seguinte forma:
 
-ruby
-Copiar código
+```
 .
 ├── public/                     # Arquivos públicos
 │   ├── next.svg
@@ -57,51 +58,60 @@ Copiar código
 ├── postcss.config.mjs          # Configuração do PostCSS
 ├── tailwind.config.ts          # Configuração do Tailwind CSS
 └── tsconfig.json               # Configuração do TypeScript
-Instalação
+```
+
+## Instalação
 Siga os passos abaixo para instalar e executar o projeto localmente:
 
 Clone o repositório:
-
-sh
-Copiar código
-git clone https://github.com/seu-usuario/seu-repositorio.git
+```sh
+git clone https://github.com/herickmds/next-todo-list.git
 cd seu-repositorio
+```
+
 Instale as dependências:
-
-sh
-Copiar código
+```sh
 npm install
+```
+
 Execute o servidor de desenvolvimento:
-
-sh
-Copiar código
+```sh
 npm run dev
-Abra o navegador e acesse http://localhost:3000.
+```
 
-Scripts Disponíveis
+Abra o navegador e acesse [http://localhost:3000](http://localhost:3000).
+
+## Scripts Disponíveis
 No diretório do projeto, você pode executar:
 
-npm run dev: Inicia o servidor de desenvolvimento.
-npm run build: Compila o projeto para produção.
-npm start: Inicia o servidor de produção.
-Tecnologias Utilizadas
-Next.js - Framework React para produção.
-Tailwind CSS - Framework CSS utilitário.
-Axios - Cliente HTTP para fazer requisições.
-Yup - Biblioteca para validação de esquemas.
-React Hook Form - Gerenciamento de formulários em React.
-Funcionalidades
-Autenticação de usuários (login e registro).
-Gerenciamento de tarefas (criação, visualização, edição e exclusão).
-Interface de usuário responsiva.
-Validação de formulários.
-Contribuição
+- `npm run dev`: Inicia o servidor de desenvolvimento.
+- `npm run build`: Compila o projeto para produção.
+- `npm start`: Inicia o servidor de produção.
+
+## Tecnologias Utilizadas
+- **Next.js** - Framework React para produção.
+- **Tailwind CSS** - Framework CSS utilitário.
+- **Axios** - Cliente HTTP para fazer requisições.
+- **Yup** - Biblioteca para validação de esquemas.
+- **React Hook Form** - Gerenciamento de formulários em React.
+
+## Funcionalidades
+- Autenticação de usuários (login e registro).
+- Gerenciamento de tarefas (criação, visualização, edição e exclusão).
+- Interface de usuário responsiva.
+- Validação de formulários.
+
+## Contribuição
 Se você deseja contribuir com o projeto, siga os passos abaixo:
 
-Faça um fork do projeto.
-Crie uma nova branch (git checkout -b feature/nova-feature).
-Faça commit das suas alterações (git commit -m 'Adiciona nova feature').
-Envie para o repositório remoto (git push origin feature/nova-feature).
-Abra um pull request.
-Licença
+1. Faça um fork do projeto.
+2. Crie uma nova branch (`git checkout -b feature/nova-feature`).
+3. Faça commit das suas alterações (`git commit -m 'Adiciona nova feature'`).
+4. Envie para o repositório remoto (`git push origin feature/nova-feature`).
+5. Abra um pull request.
+
+## Licença
 Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+---
+Criado por Herick Marçal dos Santos
